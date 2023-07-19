@@ -315,6 +315,10 @@ footer {
         align-items: center;
     }
 
+    .remera__descripcion:hover {
+        scale: 1.6;
+        opacity: 0.6;
+    
     .lo__mas__vendido {
         flex-wrap: wrap;
     }
