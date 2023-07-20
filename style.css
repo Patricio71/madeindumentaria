@@ -9,10 +9,13 @@
 }
 
 body {
-    background: #3494E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f5b6d5, #a1c9ec);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f5b6d5, #a1c9ec); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5b6d5, #a1c9ec);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5b6d5, #a1c9ec);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -44,7 +47,7 @@ body {
     color: #020202;
     color: -webkit-linear-gradient(to right, #232128, #8E2DE2);
     color: linear-gradient(to right, #2e2839, #8E2DE2);
-    
+
 }
 
 .header__nav li:hover {
@@ -66,6 +69,7 @@ body {
 .para__ellas {
     position: relative;
 }
+
 .para__ellas p {
     position: absolute;
     top: 50%;
@@ -78,7 +82,8 @@ body {
     padding: 0px 10px 0px 10px;
 
 }
-.para__ellas p:hover{
+
+.para__ellas p:hover {
     background-color: #4e0092;
 }
 
@@ -88,6 +93,7 @@ body {
     position: relative;
 
 }
+
 .para__ellos p {
     position: absolute;
     top: 50%;
@@ -99,7 +105,8 @@ body {
     border-radius: 15px;
     padding: 0px 10px 0px 10px;
 }
-.para__ellos p:hover{
+
+.para__ellos p:hover {
     background-color: #4e0092;
 }
 
@@ -110,11 +117,15 @@ body {
     margin-top: 5%;
     width: 100%;
     height: 165px;
-    background: #3494E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right,#7db7eb , #f895c6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right,#7db7eb, #f895c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #3494E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7db7eb, #f895c6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7db7eb, #f895c6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
 .descuento__seguinos {
     text-align: center;
     cursor: pointer;
@@ -122,11 +133,13 @@ body {
     font-weight: 600;
 
 }
-.descuento__seguinos h4{
+
+.descuento__seguinos h4 {
     color: black;
     font-weight: 600;
     padding: 5px 0px 0px 0px;
 }
+
 .descuento__seguinos p {
     font-size: 16px;
     font-weight: 600;
@@ -140,11 +153,13 @@ body {
     margin-top: 5%;
     color: black;
 }
+
 .lo__mas__vendido {
     margin-top: 5%;
     display: flex;
     justify-content: space-evenly;
 }
+
 .lo__mas__vendido p {
     margin-top: 5%;
     text-align: center;
@@ -158,18 +173,24 @@ body {
 
 /* FOOTER */
 footer {
-    color: whitesmoke;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    align-items: center;
-    margin-top: 3%;
+    margin-top: 5%;
     width: 100%;
     height: auto;
+    color: whitesmoke;
     background: #898694;
     background: -webkit-linear-gradient(to right, #c2bd9b, #272530);
     background: linear-gradient(to right, #b6ae76, #3c374b);
 
+}
+
+.footer__grupo {
+    display: flex;
+    justify-content: space-around;
+    padding: 7px 0px 0px 0px;
+}
+
+.footer__titulo {
+    text-align: center;
 }
 
 .nosotros li {
@@ -178,45 +199,59 @@ footer {
 
 }
 
+.seguinos a {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
 /* PAGINA HOMBRE */
 /* REMERAS */
 .remeras__lisas__de__hombre {
     text-align: center;
     margin-top: 3%;
 }
+
 .remeras__lisas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2%;
 }
+
 .remera__descripcion {
     text-align: center;
     font-size: 18px;
     cursor: pointer;
     opacity: 1;
 }
+
 .remera__descripcion:hover {
     scale: 1.1;
     opacity: 0.6;
 }
+
 /* BUZOS */
 .buzos__lisos__de__hombre {
     text-align: center;
     margin-top: 3%;
 }
+
 .buzos__lisos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2%;
 }
+
 .buzo__descripcion {
     text-align: center;
     font-size: 21px;
     cursor: pointer;
     opacity: 1;
 }
+
 .buzo__descripcion:hover {
     scale: 1.1;
     opacity: 0.5;
@@ -235,12 +270,14 @@ footer {
     text-align: center;
     margin-top: 3%;
 }
+
 .calza__mujer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 2%;
 }
+
 .calza__descripcion {
     margin: 0px 10px 10px 0px;
     text-align: center;
@@ -248,6 +285,7 @@ footer {
     cursor: pointer;
     opacity: 1;
 }
+
 .calza__descripcion:hover {
     scale: 1.1;
     opacity: 0.6;
@@ -265,17 +303,20 @@ footer {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-    .portada__mujer__hombre{
+
+    .portada__mujer__hombre {
         justify-content: space-between;
     }
-   .para__ellas p{
-    left: 15px;
-    font-size: 25px;
-   }
-   .para__ellos p{
-    left: 15px;
-    font-size: 25px;
-   }
+
+    .para__ellas p {
+        left: 15px;
+        font-size: 25px;
+    }
+
+    .para__ellos p {
+        left: 15px;
+        font-size: 25px;
+    }
 
     .banner__inferior {
         width: 100%;
@@ -287,7 +328,7 @@ footer {
 
     }
 
-   
+
 
 
     .lo__mas__vendido {
@@ -295,10 +336,10 @@ footer {
     }
 
 
-    footer {
+    .footer__Grupo {
+        align-items: center;
+        flex-wrap: wrap;
         flex-direction: column;
-        text-align: center;
-        justify-content: space-between;
     }
 
     .footer__titulo {
