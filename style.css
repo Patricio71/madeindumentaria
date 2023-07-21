@@ -276,6 +276,12 @@ footer {
 }
 
 
+
+
+
+
+
+
 /* PAGINA MUJER */
 .remeras__lisas__titulo {
     text-align: center;
@@ -334,8 +340,6 @@ footer {
     color: whitesmoke;
 
 }
-
-
 
 /* CALZAS DE MUJER */
 .calza__de__mujer {
@@ -433,19 +437,5 @@ footer {
 
     .lo__mas__vendido {
         flex-wrap: wrap;
-    }
-
-    .footer__Grupo {
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-
-    .footer__titulo {
-        text-align: center;
-    }
-
-    .seguinos {
-        margin-top: 3%;
     }
 }
