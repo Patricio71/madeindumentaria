@@ -206,72 +206,61 @@ footer {
 /* PAGINA HOMBRE */
 
 /* REMERAS */
-.remeras__lisas__de__hombre {
-    font-weight: 600;
+.remeras__lisas__titulo {
     text-align: center;
     margin-top: 3%;
+    color: #131313;
     font-size: 40px;
     text-shadow: 2px 2px 0 #da17ca;
+    font-weight: 600;
 }
-.remeras__lisas {
+.remeras__lisas__hombre {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 5%;
+    justify-content: space-between;
 }
-.remera__descripcion {
-    position: relative;
-    cursor: pointer;
-    flex-wrap: wrap;
-    margin: 10px 10px 0px 0px;
-    border: 2px solid black;
-    border-radius: 15%;
-}
-.remera__descripcion p {
-    position: absolute;
+.remera__descripcion__hombre {
+    border-radius: 10px;
+    background-color: rgb(146, 146, 146, 0.7);
+    margin-top: 3%;
     text-align: center;
-    margin-top: 1%;
-    top: 90%;
-    left: 25%;
 }
-.remera__descripcion img:hover{
-    transform: scale(1.10);
-    border: 2px solid black;
+.remera__descripcion__hombre p {
+    margin-top: 2px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    color: whitesmoke;
+
 }
+
 
 /* SHORT HOMBRE */
-.short__hombre__titulo{
-    font-weight: 600;
+.short__hombre__titulo {
     text-align: center;
-    margin-top: 3%;
+    margin-top: 10%;
     font-size: 40px;
     text-shadow: 2px 2px 0 #da17ca;
-
+    font-weight: 600;
 }
-.short__de__hombre{
+.short_de_hombre {
     display: flex;
-    justify-content: center;
-    margin-top: 5%;
-
-}
-.short__hombre__descripcion{
-    position: relative;
-    cursor: pointer;
     flex-wrap: wrap;
-    margin: 10px 10px 0px 0px;
-    border-radius: 15%;
-    border: 2px solid black;
-
-
-
+    justify-content: space-between;
+    margin-top: -3%;
 }
-.short__hombre__descripcion img:hover{
-    transform: scale(1.10);
-    border: 2px solid black;
+.short__hombre__descripcion {
+    background-color: rgb(146, 146, 146, 0.7);
+    margin-top: 7%;
+    text-align: center;
+    border-radius: 10px;
+
 }
 .short__hombre__descripcion p {
-    text-align: center;
-    margin-top: 4%;
+    margin-top: 2px;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    color: whitesmoke;
+
 }
 
 
@@ -331,7 +320,7 @@ footer {
     margin-top: 3%;
     text-align: center;
 }
-era__descripcion__mujer p {
+.remera__descripcion__mujer p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
     border-radius: 10px;
@@ -453,17 +442,24 @@ era__descripcion__mujer p {
     .remera__descripcion__mujer {
         margin-top: 15%;
     }
-    /* LO MAS VENDIDO */
-    .remera__hombre {
-        margin-top: 15%;
+    /* REMERA HOMBRES */
+    .remera__descripcion__hombre{
+        margin: 15% 0px 10px 0px;
     }
+    /* SHORT HOMBRE */
+    .short__hombre__titulo{
+        margin-top: 15% ;
+    }
+    .short__hombre__descripcion{
+        margin: 10% 0px 10px 0px;
+
+    }
+    /* LO MAS VENDIDO */
+   
     .remera__mujer {
         margin-top: 15%;
     }
-    /* PAGINA HOMBRE BUZOS */
-    .buzo__descripcion {
-        margin: 20% 3% 0% 0%;
-    }
+    
     /* PAGINA MUJER SHORT */
     .short__mujer__titulo {
         margin-top: 15%;
@@ -476,14 +472,10 @@ era__descripcion__mujer p {
         margin-top: 10%;
         text-align: center;
     }
-    .calzas {
-        max-width: 576;
-        margin-top: 10%;
-        grid-column: auto;
-    }
+    
     /* FOOTER PIE DE PAGINA */
     footer {
         margin-top: 22%;
-        }
+    }
 }
    
