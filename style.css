@@ -455,10 +455,32 @@ footer {
 
     }
     /* LO MAS VENDIDO */
-   
+    .titulo__lo__mas__vendido{
+        margin-top:10% ;
+    }
+    .short__calza_hombre{
+        border: 1px solid black;
+        background-color: rgb(146, 146, 146, 0.7);
+
+    }
+    .short__calza__mujer{
+        border: 1px solid black;
+        background-color: rgb(146, 146, 146, 0.7);
+    }
+    .remera__hombre{
+        margin-top: 15%;
+        border: 1px solid black;
+        background-color: rgb(146, 146, 146, 0.7);
+    }
     .remera__mujer {
         margin-top: 15%;
+        border: 1px solid black;
+        background-color: rgb(146, 146, 146, 0.7);
     }
+
+
+
+   
     
     /* PAGINA MUJER SHORT */
     .short__mujer__titulo {
