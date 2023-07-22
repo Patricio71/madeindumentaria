@@ -175,6 +175,7 @@ body {
 
 /* FOOTER */
 footer {
+    margin-top: 5% ;
     width: 100%;
     height: auto;
     color: whitesmoke;
@@ -195,7 +196,6 @@ footer {
     list-style-type: none;
     cursor: pointer;
 }
-
 .seguinos a {
     flex-direction: column;
     display: flex;
@@ -204,6 +204,7 @@ footer {
 }
 
 /* PAGINA HOMBRE */
+
 /* REMERAS */
 .remeras__lisas__de__hombre {
     font-weight: 600;
@@ -428,74 +429,61 @@ era__descripcion__mujer p {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
-
+    /* PORTADA PARA ELLES */
     .portada__mujer__hombre {
         justify-content: space-between;
     }
-
     .para__ellas p {
         left: 15px;
         font-size: 25px;
     }
-
     .para__ellos p {
         left: 15px;
         font-size: 25px;
     }
-
     /* BANNER DESCUENTOS */
     .banner__inferior {
         margin-top: 15%;
     }
-
     .banner__inferior img {
         width: 35px;
         height: 35px;
 
     }
-
     .remera__descripcion__mujer {
         margin-top: 15%;
     }
-
     /* LO MAS VENDIDO */
     .remera__hombre {
         margin-top: 15%;
     }
-
     .remera__mujer {
         margin-top: 15%;
     }
-
     /* PAGINA HOMBRE BUZOS */
     .buzo__descripcion {
         margin: 20% 3% 0% 0%;
     }
-
     /* PAGINA MUJER SHORT */
     .short__mujer__titulo {
         margin-top: 15%;
     }
-
     .short__mujer__descripcion {
         margin-top: 10%;
     }
-
     /* PAGINA MUJER CALZAS */
     .calza__de__mujer {
         margin-top: 10%;
         text-align: center;
     }
-
     .calzas {
         max-width: 576;
         margin-top: 10%;
         grid-column: auto;
     }
-
     /* FOOTER PIE DE PAGINA */
+    footer {
+        margin-top: 22%;
+        }
 }
-
-footer {
-    margin-top: 22%;
-}
+   
