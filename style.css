@@ -195,6 +195,7 @@ footer {
     list-style-type: none;
     cursor: pointer;
 }
+
 .seguinos a {
     flex-direction: column;
     display: flex;
@@ -385,20 +386,30 @@ era__descripcion__mujer p {
         "caja1 caja4 caja5";
 }
 .caja1 {
-    background-color: #b6ae76;
     grid-area: caja1;
+    border-radius: 10px;
+    background-color: rgb(146, 146, 146, 0.7);
+    margin-top: 3%;
 }
 .caja2 {
-    background-color: #b6ae76;
+    border-radius: 10px;
+    background-color: rgb(146, 146, 146, 0.7);
+    margin-top: 3%;
 }
 .caja3 {
-    background-color: #b6ae76;
+    border-radius: 10px;
+    background-color: rgb(146, 146, 146, 0.7);
+    margin-top: 3%;
 }
 .caja4 {
-    background-color: #b6ae76;
+    border-radius: 10px;
+    background-color: rgb(146, 146, 146, 0.7);
+    margin-top: 3%;
 }
 .caja5 {
-    background-color: #b6ae76;
+    border-radius: 10px;
+    background-color: rgb(146, 146, 146, 0.7);
+    margin-top: 3%;
 }
 
 
