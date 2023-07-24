@@ -501,14 +501,16 @@ footer {
     /* BANNER DESCUENTOS */
     .banner__inferior {
         margin-top: 15%;
+        height: 145px;
     }
 
     .banner__inferior img {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
 
     }
-
+    
+    /* PAGINA MUJER REMERA */
     .remera__descripcion__mujer {
         margin-top: 15%;
     }
