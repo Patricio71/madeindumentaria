@@ -21,9 +21,11 @@ body {
     margin-top: -6%;
     text-align: center;
 }
+
 .hr {
     margin-top: -5%;
 }
+
 .header__nav {
     margin-top: -1%;
     display: flex;
@@ -31,11 +33,13 @@ body {
     justify-content: center;
     font-size: 19px;
 }
+
 .header__nav a {
     text-decoration: none;
     margin-bottom: 1%;
     padding: 0px 30px 0px 0px;
 }
+
 .header__nav li {
     font-weight: 600;
     color: #020202;
@@ -43,6 +47,7 @@ body {
     color: linear-gradient(to right, #2e2839, #8E2DE2);
     text-shadow: 1px 1px 0 #f0f1f3;
 }
+
 .header__nav li:hover {
     scale: 1.1;
     background-color: #4e0092;
@@ -77,6 +82,7 @@ body {
     border-radius: 15px;
     padding: 0px 10px 0px 10px;
 }
+
 .para__ellas p:hover {
     background-color: #4e0092;
     background-position: 300px 0px;
@@ -94,6 +100,7 @@ body {
 
 
 }
+
 .para__ellos p {
     position: absolute;
     top: 50%;
@@ -106,6 +113,7 @@ body {
     padding: 0px 10px 0px 10px;
 
 }
+
 .para__ellos p:hover {
     background-color: #4e0092;
     -webkit-transition-property: all;
@@ -118,6 +126,7 @@ body {
 /* BANNER INFERIOR */
 
 .banner__inferior {
+    
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
     margin-top: 10%;
     width: 100%;
@@ -130,21 +139,22 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-.descuento__seguinos {
+.banner__oferta__conocenos{
     text-align: center;
-    cursor: pointer;
-    color: black;
+}
+.banner__oferta__conocenos h2{
     font-weight: 600;
+}
+.banner__oferta__conocenos p{
+    font-size: 25px;
+}
+.banner__redes{
+    display: flex;
+    justify-content: center;
+}
+.banner__redes a{
+    margin: 0px 20px 0px 20px;
 
-}
-.descuento__seguinos h4 {
-    color: black;
-    font-weight: 600;
-    padding: 5px 0px 0px 0px;
-}
-.descuento__seguinos p {
-    font-size: 16px;
-    font-weight: 600;
 }
 
 /* LO MAS VENDIDO */
@@ -157,11 +167,13 @@ body {
     text-shadow: 2px 2px 0 #da17ca;
 
 }
+
 .lo__mas__vendido {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .lo__mas__vendido p {
     margin-top: 5%;
     text-align: center;
@@ -175,7 +187,7 @@ body {
 
 /* FOOTER */
 footer {
-    margin-top: 5% ;
+    margin-top: 5%;
     width: 100%;
     height: auto;
     color: whitesmoke;
@@ -184,18 +196,22 @@ footer {
     background: linear-gradient(to right, #b6ae76, #3c374b);
 
 }
+
 .footer__grupo {
     display: flex;
     justify-content: space-around;
     padding: 7px 0px 0px 0px;
 }
+
 .footer__titulo {
     text-align: center;
 }
+
 .nosotros li {
     list-style-type: none;
     cursor: pointer;
 }
+
 .seguinos a {
     flex-direction: column;
     display: flex;
@@ -214,17 +230,20 @@ footer {
     text-shadow: 2px 2px 0 #da17ca;
     font-weight: 600;
 }
+
 .remeras__lisas__hombre {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .remera__descripcion__hombre {
     border-radius: 10px;
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 3%;
     text-align: center;
 }
+
 .remera__descripcion__hombre p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -242,12 +261,14 @@ footer {
     text-shadow: 2px 2px 0 #da17ca;
     font-weight: 600;
 }
+
 .short_de_hombre {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: -3%;
 }
+
 .short__hombre__descripcion {
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 7%;
@@ -255,6 +276,7 @@ footer {
     border-radius: 10px;
 
 }
+
 .short__hombre__descripcion p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -265,14 +287,15 @@ footer {
 
 
 /* BUZOS */
-.buzo__capucha__titulo{
+.buzo__capucha__titulo {
     font-weight: 600;
     text-align: center;
     margin-top: 3%;
     font-size: 40px;
-    text-shadow: 2px 2px 0 #da17ca; 
+    text-shadow: 2px 2px 0 #da17ca;
 }
-.buzos__hombre{
+
+.buzos__hombre {
     margin-top: 5%;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr;
@@ -282,19 +305,24 @@ footer {
         "caja1 caja2 caja3"
         "caja1 caja4 caja5";
 }
+
 .caja1 {
     background-color: #b6ae76;
     grid-area: caja1;
 }
+
 .caja2 {
     background-color: #b6ae76;
 }
+
 .caja3 {
     background-color: #b6ae76;
 }
+
 .caja4 {
     background-color: #b6ae76;
 }
+
 .caja5 {
     background-color: #b6ae76;
 }
@@ -309,17 +337,20 @@ footer {
     text-shadow: 2px 2px 0 #da17ca;
     font-weight: 600;
 }
+
 .remeras__lisas__mujer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .remera__descripcion__mujer {
     border-radius: 10px;
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 3%;
     text-align: center;
 }
+
 .remera__descripcion__mujer p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -337,12 +368,14 @@ footer {
     text-shadow: 2px 2px 0 #da17ca;
     font-weight: 600;
 }
+
 .short_de_mujer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: -3%;
 }
+
 .short__mujer__descripcion {
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 7%;
@@ -350,6 +383,7 @@ footer {
     border-radius: 10px;
 
 }
+
 .short__mujer__descripcion p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -357,6 +391,7 @@ footer {
     color: whitesmoke;
 
 }
+
 /* CALZAS DE MUJER */
 .calza__de__mujer {
     margin-top: 5%;
@@ -365,6 +400,7 @@ footer {
     text-shadow: 2px 2px 0 #da17ca;
     font-weight: 600;
 }
+
 .calzas {
     margin-top: 5%;
     display: grid;
@@ -375,27 +411,32 @@ footer {
         "caja1 caja2 caja3"
         "caja1 caja4 caja5";
 }
+
 .caja1 {
     grid-area: caja1;
     border-radius: 10px;
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 3%;
 }
+
 .caja2 {
     border-radius: 10px;
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 3%;
 }
+
 .caja3 {
     border-radius: 10px;
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 3%;
 }
+
 .caja4 {
     border-radius: 10px;
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 3%;
 }
+
 .caja5 {
     border-radius: 10px;
     background-color: rgb(146, 146, 146, 0.7);
@@ -418,86 +459,102 @@ footer {
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
     /* PORTADA PARA ELLES */
     .portada__mujer__hombre {
         justify-content: space-between;
     }
+
     .para__ellas p {
         left: 15px;
         font-size: 25px;
     }
+
     .para__ellos p {
         left: 15px;
         font-size: 25px;
     }
+
     /* BANNER DESCUENTOS */
     .banner__inferior {
         margin-top: 15%;
     }
+
     .banner__inferior img {
         width: 35px;
         height: 35px;
 
     }
+
     .remera__descripcion__mujer {
         margin-top: 15%;
     }
+
     /* REMERA HOMBRES */
-    .remera__descripcion__hombre{
+    .remera__descripcion__hombre {
         margin: 15% 0px 10px 0px;
     }
+
     /* SHORT HOMBRE */
-    .short__hombre__titulo{
-        margin-top: 15% ;
+    .short__hombre__titulo {
+        margin-top: 15%;
     }
-    .short__hombre__descripcion{
+
+    .short__hombre__descripcion {
         margin: 10% 0px 10px 0px;
 
     }
+
     /* LO MAS VENDIDO */
-    .titulo__lo__mas__vendido{
-        margin-top:10% ;
+    .titulo__lo__mas__vendido {
+        margin-top: 10%;
     }
-    .short__calza_hombre{
+
+    .short__calza_hombre {
         border: 1px solid black;
         background-color: rgb(146, 146, 146, 0.7);
 
     }
-    .short__calza__mujer{
+
+    .short__calza__mujer {
         border: 1px solid black;
         background-color: rgb(146, 146, 146, 0.7);
     }
-    .remera__hombre{
+
+    .remera__hombre {
         margin-top: 15%;
         border: 1px solid black;
         background-color: rgb(146, 146, 146, 0.7);
     }
+
     .remera__mujer {
         margin-top: 15%;
         border: 1px solid black;
         background-color: rgb(146, 146, 146, 0.7);
     }
 
-
-
-   
-    
     /* PAGINA MUJER SHORT */
     .short__mujer__titulo {
         margin-top: 15%;
     }
+
     .short__mujer__descripcion {
         margin-top: 10%;
     }
+
     /* PAGINA MUJER CALZAS */
     .calza__de__mujer {
         margin-top: 10%;
         text-align: center;
     }
-    
+
     /* FOOTER PIE DE PAGINA */
     footer {
         margin-top: 22%;
+
+    }
+
+    .footer__grupo {
+        justify-content: space-between;
     }
 }
-   
