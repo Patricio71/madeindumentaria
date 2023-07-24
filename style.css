@@ -66,6 +66,10 @@ body {
 /* PARA ELLAS */
 .para__ellas {
     position: relative;
+    background-color: rgb(146, 146, 146, 0.7);
+    border-radius: 10px;
+
+
 
 
 
@@ -97,6 +101,10 @@ body {
 /* PARA ELLOS */
 .para__ellos {
     position: relative;
+    background-color: rgb(146, 146, 146, 0.7);
+    border-radius: 10px;
+
+
 
 
 }
@@ -172,6 +180,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
+}
+.lo__mas__vendido img{
+    background-color: rgb(146, 146, 146, 0.7);
+    border-radius: 10px;
 }
 
 .lo__mas__vendido p {
@@ -305,7 +318,10 @@ footer {
         "caja1 caja2 caja3"
         "caja1 caja4 caja5";
 }
+.buzos__hombre img{
+    border-radius: 10px;
 
+}
 .caja1 {
     background-color: #b6ae76;
     grid-area: caja1;
