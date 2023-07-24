@@ -303,7 +303,7 @@ footer {
 .buzo__capucha__titulo {
     font-weight: 600;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 7%;
     font-size: 40px;
     text-shadow: 2px 2px 0 #da17ca;
 }
@@ -480,7 +480,14 @@ footer {
     .portada__mujer__hombre {
         justify-content: space-between;
     }
-
+    .para__ellas img{
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+    .para__ellos img{
+        border: 2px solid black;
+        border-radius: 10px;
+    }
     .para__ellas p {
         left: 15px;
         font-size: 25px;
@@ -529,24 +536,32 @@ footer {
     .short__calza_hombre {
         border: 1px solid black;
         background-color: rgb(146, 146, 146, 0.7);
+        border-radius: 10px;
+
 
     }
 
     .short__calza__mujer {
         border: 1px solid black;
         background-color: rgb(146, 146, 146, 0.7);
+        border-radius: 10px;
+
     }
 
     .remera__hombre {
         margin-top: 15%;
         border: 1px solid black;
         background-color: rgb(146, 146, 146, 0.7);
+        border-radius: 10px;
+
     }
 
     .remera__mujer {
         margin-top: 15%;
         border: 1px solid black;
         background-color: rgb(146, 146, 146, 0.7);
+        border-radius: 10px;
+
     }
 
     /* PAGINA MUJER SHORT */
