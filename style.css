@@ -256,7 +256,10 @@ footer {
     margin-top: 3%;
     text-align: center;
 }
-
+.remera__descripcion__hombre:hover{
+    scale: 1.60;
+   
+}
 .remera__descripcion__hombre p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -289,7 +292,10 @@ footer {
     border-radius: 10px;
 
 }
+.short__hombre__descripcion:hover {
+    scale: 1.60;
 
+}
 .short__hombre__descripcion p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -326,23 +332,33 @@ footer {
     background-color: #b6ae76;
     grid-area: caja1;
 }
-
+.caja1:hover{
+    scale: 1.20;
+}
 .caja2 {
     background-color: #b6ae76;
 }
-
+.caja2:hover{
+    scale: 1.20;
+}
 .caja3 {
     background-color: #b6ae76;
 }
-
+.caja3:hover{
+    scale: 1.20;
+}
 .caja4 {
     background-color: #b6ae76;
 }
-
+.caja4:hover{
+    scale: 1.20;
+}
 .caja5 {
     background-color: #b6ae76;
 }
-
+.caja5:hover{
+    scale: 1.20;
+}
 
 /* PAGINA MUJER */
 .remeras__lisas__titulo {
@@ -365,6 +381,10 @@ footer {
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 3%;
     text-align: center;
+}
+.remera__descripcion__mujer:hover {
+    scale: 1.45;
+    
 }
 
 .remera__descripcion__mujer p {
@@ -399,7 +419,9 @@ footer {
     border-radius: 10px;
 
 }
-
+.short__mujer__descripcion:hover{
+    scale: 1.45;
+}
 .short__mujer__descripcion p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -434,7 +456,6 @@ footer {
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 3%;
 }
-
 .caja2 {
     border-radius: 10px;
     background-color: rgb(146, 146, 146, 0.7);
