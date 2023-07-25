@@ -469,7 +469,7 @@ footer {
 
 /* MOBILE */
 
-@media (min-width: 399px) and (max-width:600px) {
+@media (max-width:600px) {
 
     .header__nav {
         flex-wrap: wrap;
