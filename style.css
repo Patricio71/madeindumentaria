@@ -480,21 +480,27 @@ footer {
     .portada__mujer__hombre {
         justify-content: space-between;
     }
+    .para__ellas{
+        border: solid 2px black;
+        width: 175px;
+    }
+    .para__ellos{
+        border: solid 2px black;
+        width: 175px;
+    }
     .para__ellas img{
-        border: 2px solid black;
         border-radius: 10px;
     }
     .para__ellos img{
-        border: 2px solid black;
         border-radius: 10px;
     }
     .para__ellas p {
-        left: 15px;
+        left: 10px;
         font-size: 25px;
     }
 
     .para__ellos p {
-        left: 15px;
+        left: 10px;
         font-size: 25px;
     }
 
