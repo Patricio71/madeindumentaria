@@ -3,17 +3,17 @@
     padding: 0;
     font-family: 'Barlow', sans-serif;
 
-
-
-
 }
 
-body {
-    background: #3494E6;
-    background: -webkit-linear-gradient(to right, #f5b6d5, #a1c9ec);
-    background: linear-gradient(to right, #f5b6d5, #a1c9ec);
-    background-attachment: fixed;
 
+
+
+
+
+
+
+body {
+    /* background-color: #182f3c; */
 
 }
 
@@ -42,17 +42,11 @@ body {
 
 .header__nav li {
     font-weight: 600;
-    color: #020202;
-    color: -webkit-linear-gradient(to right, #232128, #8E2DE2);
-    color: linear-gradient(to right, #2e2839, #8E2DE2);
-    text-shadow: 1px 1px 0 #f0f1f3;
+    color: black;
 }
 
 .header__nav li:hover {
-    scale: 1.1;
-    background-color: #4e0092;
-    color: whitesmoke;
-    opacity: 0.7;
+    scale: 1.2;
 }
 
 /* Seccion media */
@@ -134,7 +128,7 @@ body {
 /* BANNER INFERIOR */
 
 .banner__inferior {
-    
+
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
     margin-top: 10%;
     width: 100%;
@@ -147,20 +141,25 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-.banner__oferta__conocenos{
+
+.banner__oferta__conocenos {
     text-align: center;
 }
-.banner__oferta__conocenos h2{
+
+.banner__oferta__conocenos h2 {
     font-weight: 600;
 }
-.banner__oferta__conocenos p{
+
+.banner__oferta__conocenos p {
     font-size: 25px;
 }
-.banner__redes{
+
+.banner__redes {
     display: flex;
     justify-content: center;
 }
-.banner__redes a{
+
+.banner__redes a {
     margin: 0px 20px 0px 20px;
 
 }
@@ -170,9 +169,8 @@ body {
     font-weight: 600;
     text-align: center;
     margin-top: 5%;
-    color: black;
     font-size: 40px;
-    text-shadow: 2px 2px 0 #da17ca;
+    text-shadow: 2px 2px #e912cc;
 
 }
 
@@ -180,9 +178,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
 }
-.lo__mas__vendido img{
+
+.lo__mas__vendido img {
     background-color: rgb(146, 146, 146, 0.7);
     border-radius: 10px;
 }
@@ -237,10 +236,9 @@ footer {
 /* REMERAS */
 .remeras__lisas__titulo {
     text-align: center;
-    margin-top: 3%;
-    color: #131313;
     font-size: 40px;
-    text-shadow: 2px 2px 0 #da17ca;
+    text-shadow: 2px 2px #e912cc;
+    margin-top: 3%;
     font-weight: 600;
 }
 
@@ -256,10 +254,12 @@ footer {
     margin-top: 3%;
     text-align: center;
 }
-.remera__descripcion__hombre:hover{
+
+.remera__descripcion__hombre:hover {
     scale: 1.60;
-   
+
 }
+
 .remera__descripcion__hombre p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -274,7 +274,8 @@ footer {
     text-align: center;
     margin-top: 10%;
     font-size: 40px;
-    text-shadow: 2px 2px 0 #da17ca;
+    text-shadow: 2px 2px #e912cc;
+    margin-top: 7%;
     font-weight: 600;
 }
 
@@ -292,10 +293,12 @@ footer {
     border-radius: 10px;
 
 }
+
 .short__hombre__descripcion:hover {
     scale: 1.60;
 
 }
+
 .short__hombre__descripcion p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -309,9 +312,10 @@ footer {
 .buzo__capucha__titulo {
     font-weight: 600;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 10%;
     font-size: 40px;
-    text-shadow: 2px 2px 0 #da17ca;
+    text-shadow: 2px 2px #e912cc;
+    margin-top: 3%;
 }
 
 .buzos__hombre {
@@ -324,39 +328,50 @@ footer {
         "caja1 caja2 caja3"
         "caja1 caja4 caja5";
 }
-.buzos__hombre img{
+
+.buzos__hombre img {
     border-radius: 10px;
 
 }
+
 .caja1 {
     background-color: #b6ae76;
     grid-area: caja1;
 }
-.caja1:hover{
+
+.caja1:hover {
     scale: 1.20;
 }
+
 .caja2 {
     background-color: #b6ae76;
 }
-.caja2:hover{
+
+.caja2:hover {
     scale: 1.20;
 }
+
 .caja3 {
     background-color: #b6ae76;
 }
-.caja3:hover{
+
+.caja3:hover {
     scale: 1.20;
 }
+
 .caja4 {
     background-color: #b6ae76;
 }
-.caja4:hover{
+
+.caja4:hover {
     scale: 1.20;
 }
+
 .caja5 {
     background-color: #b6ae76;
 }
-.caja5:hover{
+
+.caja5:hover {
     scale: 1.20;
 }
 
@@ -364,9 +379,8 @@ footer {
 .remeras__lisas__titulo {
     text-align: center;
     margin-top: 3%;
-    color: #131313;
     font-size: 40px;
-    text-shadow: 2px 2px 0 #da17ca;
+    text-shadow: 2px 2px #e912cc;
     font-weight: 600;
 }
 
@@ -382,9 +396,10 @@ footer {
     margin-top: 3%;
     text-align: center;
 }
+
 .remera__descripcion__mujer:hover {
     scale: 1.45;
-    
+
 }
 
 .remera__descripcion__mujer p {
@@ -401,7 +416,7 @@ footer {
     text-align: center;
     margin-top: 10%;
     font-size: 40px;
-    text-shadow: 2px 2px 0 #da17ca;
+    text-shadow: 2px 2px #e912cc;
     font-weight: 600;
 }
 
@@ -419,9 +434,11 @@ footer {
     border-radius: 10px;
 
 }
-.short__mujer__descripcion:hover{
+
+.short__mujer__descripcion:hover {
     scale: 1.45;
 }
+
 .short__mujer__descripcion p {
     margin-top: 2px;
     background-color: rgb(10, 10, 10);
@@ -435,7 +452,7 @@ footer {
     margin-top: 5%;
     text-align: center;
     font-size: 40px;
-    text-shadow: 2px 2px 0 #da17ca;
+    text-shadow: 2px 2px #e912cc;
     font-weight: 600;
 }
 
@@ -456,6 +473,7 @@ footer {
     background-color: rgb(146, 146, 146, 0.7);
     margin-top: 3%;
 }
+
 .caja2 {
     border-radius: 10px;
     background-color: rgb(146, 146, 146, 0.7);
@@ -501,20 +519,25 @@ footer {
     .portada__mujer__hombre {
         justify-content: space-between;
     }
-    .para__ellas{
+
+    .para__ellas {
         border: solid 2px black;
         width: 175px;
     }
-    .para__ellos{
+
+    .para__ellos {
         border: solid 2px black;
         width: 175px;
     }
-    .para__ellas img{
+
+    .para__ellas img {
         border-radius: 10px;
     }
-    .para__ellos img{
+
+    .para__ellos img {
         border-radius: 10px;
     }
+
     .para__ellas p {
         left: 10px;
         font-size: 25px;
@@ -536,7 +559,7 @@ footer {
         height: 40px;
 
     }
-    
+
     /* PAGINA MUJER REMERA */
     .remera__descripcion__mujer {
         margin-top: 15%;
